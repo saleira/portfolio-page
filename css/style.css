@@ -230,6 +230,11 @@ button:active,
     max-width: var(--max-width);
 }
 
+.about p {
+    margin: 0 20px;
+    padding: 10px 0;
+}
+
 .about .button {
     margin-top: 50px;
 }
@@ -276,6 +281,12 @@ button:active,
     .contact .button {
         margin-top: 10px;
     }
+    .about p {
+        margin: 0 15px;
+    }
+    .page-header_item h1 {
+        text-align: center;
+    }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
     .grid {
@@ -292,7 +303,7 @@ button:active,
     .grid {
         grid-gap: 10px;
     }
-    .grid__item:last-child {
+    .grid_item:last-child {
         grid-column: auto / auto;
         grid-row: auto / auto;
     }
@@ -304,6 +315,9 @@ button:active,
     }
     h2 {
         font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
     }
     .page-header_item:last-child {
         text-align: center;
